@@ -1,0 +1,71 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff; /* Warna latar belakang tubuh halaman */
+    color: #333; /* Warna teks */
+}
+
+header {
+    background-color: #4CAF50; /* Warna latar belakang header */
+    color: white; /* Warna teks header */
+    padding: 20px 0;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan header */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+section {
+    background-color: #ffffff; /* Warna latar belakang section */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Lebar section */
+    max-width: 500px; /* Lebar maksimal section */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555; /* Warna teks label */
+}
+
+input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 22px); /* Penyesuaian lebar input */
+    margin-bottom: 10px; /* Margin bawah untuk jarak dengan tombol */
+}
+
+button[type="submit"] {
+    background-color: #4CAF50; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks tombol */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transisi untuk efek hover */
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41; /* Warna latar belakang tombol saat hover */
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333; /* Warna teks hasil */
+    background-color: #e0f7fa; /* Warna latar belakang hasil */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}

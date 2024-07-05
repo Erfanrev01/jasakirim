@@ -1,0 +1,4 @@
+Jarak: 4 km, Biaya: Rp. 60000
+Jarak: 4 km, Biaya: Rp. 60000
+Jarak: 4 km, Biaya: Rp. 60000
+Jarak: 66 km, Biaya: Rp. 990000

@@ -1,14 +1,12 @@
 <?php
-// save_data.php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $data = json_decode(file_get_contents('php://input'), true);
+    $name = $_POST['name'];
+    $distance = $_POST['distance'];
+    $cost = $_POST['cost'];
 
-    $distance = $data['distance'];
-    $cost = $data['cost'];
-
-    $entry = "Jarak: " . $distance . " km, Biaya: Rp. " . $cost . "\n";
+    $entry = "Nama: " . $name . ", Jarak: " . $distance . " km, Biaya: Rp. " . $cost . "\n";
     file_put_contents('data.txt', $entry, FILE_APPEND);
 
-    echo json_encode(['status' => 'success']);
+    echo 'Data berhasil disimpan.';
 }
 ?>
